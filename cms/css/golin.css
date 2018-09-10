@@ -1,0 +1,309 @@
+@font-face {
+font-family: FiraSansEB;
+src: url("../resursi/Fontovi/FiraSans/FiraSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+font-family: FiraSansLight;
+src: url("../resursi/Fontovi/FiraSans/FiraSans-Light.ttf") format("truetype");
+}
+@font-face {
+font-family: FiraSansM;
+src: url("../resursi/Fontovi/FiraSans/FiraSans-Medium.ttf") format("truetype");
+}
+@font-face {
+font-family: Montserrat;
+src: url("../resursi/Fontovi/Montserrat/Montserrat-Black.otf") format("truetype");
+}
+@font-face {
+font-family: MontserratLight;
+src: url("../resursi/Fontovi/Montserrat/Montserrat-Light.otf") format("truetype");
+}
+
+@font-face {
+font-family: MontserratEB;
+src: url("../resursi/Fontovi/Montserrat/Montserrat-ExtraBold.otf") format("truetype");
+}
+
+/* Priblizno crna boja za pozadinu body-a */
+body{
+    background-color: #131313;
+}
+#socialMedia{
+    background-color: #ffc527;
+}
+#socialMedia #icons{
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+#socialMedia img{
+    height: 1.7vh;
+}
+
+#formaZaZakazivanje{
+    font-family: MontserratLight;
+}
+#formaZaZakazivanje h5{
+    font-family: MontserratLight;
+    font-weight: 600;
+}
+
+#AdminLogin{
+    font-family: MontserratLight;
+}
+#AdminLogin h4{
+    font-family: MontserratLight;
+    font-weight: 600;
+}
+
+#login, #zakazi2{
+    font-family: Montserrat;
+    color: #262626;
+    background-color: #ffc527;
+    border-radius: 8%;
+}
+
+#homePage{
+    background-image: url("../resursi/Fotke/fotka1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 5%;        
+    height: 35rem;
+}
+
+#homePage h1{
+     color: rgb(32,32,32);
+    font-family: Montserrat;
+    font-style: italic;
+}
+
+#zakazi{
+    font-family: Montserrat;
+    padding: 3%;
+    border-radius: 8%;
+    color: #262626;
+}
+
+#homePage p{
+    font-family: FiraSansLight;
+    font-weight: bold;
+}
+/* Linkovi unutar navigation bar da budu u zuta/narandzasta(ne umijem da definisem) boji, da se ravnaju ka desnoj strani i da nemaju nikakvog efekta */ 
+#navbar1 a{
+    font-family: MontserratLight;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #ffc527;
+    text-decoration: none;
+    }
+
+/* Prilikom prelaska preko tih linkova da se boja podvuku u istoj boji kao sto je tekst bio, a da se boja teksta promijeni u bijelu */
+#navbar1 a:hover{
+    color: #fff;
+    text-decoration: underline  !important;
+    text-decoration-color: #ffc527 !important;
+    text-underline-position: under;
+    }
+
+#partOne{
+    background-color: #ffc527;
+    padding-bottom: 2%;
+    margin-top: 3%;
+}
+
+#fotka2, #fotka3{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#fotka2{
+    margin-top: -5%;
+}
+
+#fotka3{
+        margin-top: -5%;
+}
+
+#partOne p{
+    font-size: 0.78rem;
+    font-family: FiraSansLight;
+    font-weight: bold;
+}
+#partOne h2{
+    padding-top: 7%;
+    font-family: MontserratEB;
+    font-style: italic;
+    color:  #262626;
+}
+
+#clients{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9), 
+      rgba(0, 0, 0, 0.9)
+    ), url("../resursi/Fotke/fotka4.png");
+    background-size: cover;
+    padding-bottom: 3%;
+}
+
+#clients h1{
+    font-family: MontserratEB;
+    color:#ffc527;
+}
+
+#clients img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#clientSlike2{
+    padding-top: 2%;
+}
+
+#clients h4{
+    color: white;
+    font-family: MontserratLight;
+    font-size: 1.3vh;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -3.7%;
+    padding-left: 2%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) );
+    width: 93%;
+
+}
+
+#goallin{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+                      url("../resursi/Fotke/fotka5.png");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+#goallin h3,h6{
+        font-family: FiraSansM;
+}
+
+#goallin p{
+        font-family: FiraSansLight;
+}
+
+#logoGif{
+    width: 15%;
+    height: auto;
+}
+
+.card{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.card-img-top{
+    width: 30%;
+    height: auto;
+}
+
+#offices{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.9), 
+      rgba(0, 0, 0, 0.9)
+    );
+    padding-bottom: 4%;
+}
+
+
+#offices h1,h2{
+    font-family: MontserratEB;
+     color:#ffc527;
+}
+#offices h1:hover {
+    color: #fff;
+    text-decoration: underline  !important;
+    text-decoration-color: #ffc527 !important;
+    text-underline-position: under;
+    }
+
+#offices h2:hover {
+    color: #fff;
+    text-decoration: underline  !important;
+    text-decoration-color: #ffc527 !important;
+    text-underline-position: under;
+    }
+
+#offices img{
+    filter: grayscale(100%);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#offices img:hover{
+    filter: grayscale(0%);
+}
+
+#offices h5{
+    font-family: MontserratLight;
+    font-weight: bold;
+    color:#ffc527;
+    position: absolute;
+    margin-top: -7%;
+    padding-left: 2%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.9)
+    );
+    width: 90%;
+}
+
+#contact h5{
+    font-family: MontserratLight;
+    font-weight: bold;
+}
+
+#contactTekst{
+    background-color: #ffc527;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#mapa{
+    background-image: url("../resursi/mapa.png");
+    background-size: auto;
+    background-position: center;
+    margin-top: -1.2%;
+    margin-bottom: -1%;
+    height: 30vh;
+    border:1px solid #ffc527;
+}
+
+#footerNavbar p{
+    font-family: MontserratEB;
+    color:#fff;
+}
+#copyright{
+    color: #ffc527;
+}
+
+#footerNavbar p{
+    font-family: Montserrat;
+    margin-bottom: 0%;
+}
+#footerNavbar{
+    padding-top: 0.3%;
+}
+
+#copyright{
+    font-family: MontserratEB;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#vl{
+    border-left: 3px solid;
+    border-left-color: #ffc527;
+    height: 3vh;
+}

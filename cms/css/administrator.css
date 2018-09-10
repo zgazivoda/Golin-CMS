@@ -1,0 +1,37 @@
+@font-face {
+font-family: FiraSansM;
+src: url("../resursi/Fontovi/FiraSans/FiraSans-Medium.ttf") format("truetype");
+}
+@font-face {
+font-family: MontserratLight;
+src: url("../resursi/Fontovi/Montserrat/Montserrat-Light.otf") format("truetype");
+}
+
+body{
+    background-color: #131313;
+    color:#ffc527;
+}
+
+th,td {
+    text-align: center;
+}
+
+#noviSastanci,#prihvaceniSastanci,#odbijeniSastanci{
+    font-family: FiraSansM;
+    background-color:#ffc527;
+    color: #000;
+}
+
+h2,h3{    
+    font-family: MontserratLight;
+    font-weight: bold;
+}
+
+label{
+    font-family: FiraSansM;
+}
+
+.btn{
+    font-family: FiraSansM;
+    color: #000;
+}

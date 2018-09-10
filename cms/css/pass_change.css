@@ -1,0 +1,23 @@
+@font-face {
+font-family: FiraSansM;
+src: url("../resursi/Fontovi/FiraSans/FiraSans-Medium.ttf") format("truetype");
+}
+@font-face {
+font-family: MontserratLight;
+src: url("../resursi/Fontovi/Montserrat/Montserrat-Light.otf") format("truetype");
+}
+
+body{
+    background-color: #131313;
+    color:#ffc527;
+}
+
+h1{    
+    font-family: MontserratLight;
+    font-weight: bold;
+}
+
+.btn{
+    font-family: FiraSansM;
+    color: #000;
+}
